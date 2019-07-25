@@ -1,4 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h1> Hello World</h1>, document.getElementById('root'));
+export default function SimpleComponent() {
+    return <div> Hello Component</div>;
+}
+
+ReactDOM.render(<SimpleComponent/>, document.getElementById('root'));
